@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to right, #9c87a1, #d3b0b6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    letter-spacing: 0.5px
+}
+
+.container {
+    max-width: 900px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #7a3c97;
+    padding: 15px;
+}
+.custom-card {
+    background: rgb(49, 24, 90);
+    border-radius: 10px;
+    padding:

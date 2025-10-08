@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card custom-card">
+    <h3 class="mb-3 text-primary">➕ Add New Student</h3>
+    <form method="POST">
+        <div class="mb-3">
+            <label class="form-label">Student Name</label>
+            <input type="text" class="form-control" name="name" placeholder="Enter student name" required>
+        </div>
+        <button class="btn btn-primary w-100">Add Student</button>
+    </form>
+</div>
+{% endblock %}
